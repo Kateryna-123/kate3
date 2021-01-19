@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: aquamarine;
+    height: 200px;
+}
+.footer{
+    background: orange;
+    height: 200px;
+}
+.content{
+    background: gold;
+    height: 600px;
+    display: flex;
+
+}
+.menu{
+    background: darkblue;
+    height: 600px;
+    width: 30%;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.post1{
+    background: blueviolet;
+    height: 300px;
+}
+.post2{
+    background: darkred;
+    height: 300px;
+}
